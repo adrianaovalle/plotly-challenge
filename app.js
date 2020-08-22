@@ -78,7 +78,7 @@ function buildPlots(subject_ID){
             
         let traceData = [trace1];
             
-        let layout = {title: "Top 10 Bacteria - Selected Subject",
+        let layout = {title: `Top 10 Bacteria - Subject ${subject_ID}`,
                         font: {
                             family: 'Tahoma',
                             color: 'grey'
@@ -253,7 +253,7 @@ let bubble_data = [bubble_trace];
 
 // Set layout
 bubble_layout = {
-    title: `Count of Bacteria by Family - Selected Subject`,
+    title: `Count of Bacteria by Family - Subject ${subject_ID}`,
     font: {
         family: 'Tahoma',    },
     showlegend: false,
