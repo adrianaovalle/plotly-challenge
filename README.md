@@ -7,3 +7,5 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 ## Results
 The interactive plots describing the data persubject and for the entire population can be seen at: https://adrianaovalle.github.io/plotly-challenge/
+
+![Figure1](Images/results.png)
